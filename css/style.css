@@ -129,6 +129,51 @@ a:focus {
      object-position: bottom right;
 }
 
+
+/* Submit Button For Login */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style for dropdown button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style for dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Style for dropdown content items */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Style for dropdown content items on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show dropdown content when hovering over the dropdown button */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 .sub_page .hero_area {
   min-height: auto;
   background-color: #178066;
@@ -754,6 +799,147 @@ a:focus {
   left: initial;
 }
 
+.symptoms_section {
+  position: relative;
+}
+
+.symptoms_section .heading_container {
+  margin-bottom: 25px;
+}
+
+.symptoms_section .heading_container h2 {
+  text-transform: uppercase;
+}
+
+.symptoms_section .form_container input {
+  width: 100%;
+  border: none;
+  height: 50px;
+  margin-bottom: 15px;
+  padding-left: 20px;
+  outline: none;
+  color: #101010;
+  background: #eeeeee;
+}
+
+.symptoms_section .form_container input::-webkit-input-placeholder {
+  color: #000000;
+}
+
+.symptoms_section .form_container input:-ms-input-placeholder {
+  color: #000000;
+}
+
+.symptoms_section .form_container input::-ms-input-placeholder {
+  color: #000000;
+}
+
+.symptoms_section .form_container input::placeholder {
+  color: #000000;
+}
+
+.symptoms_section .form_container input.message-box {
+  height: 175px;
+}
+
+.symptoms_section .form_container button {
+  width: 100%;
+  border: none;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 12px 55px;
+  background-color: #1fab89;
+  color: #ffffff;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: 1px solid #1fab89;
+}
+
+.symptoms_section .btn-box a {
+  display: inline-block;
+  padding: 10px 45px;
+  background-color: #1fab89;
+  color: #ffffff;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: 1px solid #1fab89;
+}  
+
+.symptoms_section .form_container button:hover {
+  background-color: transparent;
+  color: #1fab89;
+}
+
+.symptoms_section .map_container {
+  height: 368px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  padding: 0;
+}
+
+.symptoms_section .map_container .map {
+  height: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.symptoms_section .map_container .map #googleMap {
+  height: 100%;
+}
+
+/* CSS for the sliding sidebar */
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main-content {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+#main-content {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* footer section */
 .footer_section {
   background: #178066;
   color: #ffffff;
